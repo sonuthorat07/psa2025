@@ -18,6 +18,8 @@ public class CommentController {
             @RequestBody Comment comment,
             @RequestParam long postId
     ){
+        System.out.println(1000);
+        System.out.println(1000);
         commentService.createComment(comment,postId);
         return "create comment";
     }
