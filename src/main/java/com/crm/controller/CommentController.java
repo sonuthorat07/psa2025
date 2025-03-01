@@ -20,6 +20,8 @@ public class CommentController {
     ){
         System.out.println(1000);
         System.out.println(1000);
+        System.out.println(1000);
+        System.out.println(1000);
         commentService.createComment(comment,postId);
         return "create comment";
     }
